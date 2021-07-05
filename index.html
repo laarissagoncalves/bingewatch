@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap">
+    <link rel="shortcut icon" href="data:image/png;base64,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">
+
+    <!--resposividade-->
+    <link rel="stylesheet" href="./css/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="./css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl/owl.theme.default.min.css">
+
+    <title>BINGE WATCH</title>
+  </head>
+  
+  <body>
+    <div class="container-menu">
+      <header>
+        <div class="container">
+          <h2 class="logo">BINGE WATCH</h2>
+          <nav>
+            <a href="#">Início</a>
+            <a href="#">Séries</a>
+            <a href="#">Filmes</a>
+            <a href="#">Documentários</a>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <div class="filme-principal">
+          <div class="container">
+            <h3 class="titulo">EYE CANDY</h3>
+            <p class="descricao">O genio da tecnologia, Lindy, convencido por seu colega de quarto para começar namoro on-line, começa a suspeitar que um de seus pretendentes misteriosos pode ser um acéfalo cibernético mortal. Quando seus amigos na incansável ciber-polícia descobrem um potencial assassino em série em Manhattan, todos os sinais apontam para uma das datas de Lindy. Juntando-se a essa banda de hackers, Lindy trabalha para resolver os assassinatos enquanto desencadeia seu próprio estilo de justiça nas ruas da cidade de Nova York.</p>
+            <div class="botoes">
+              <button role="button" class="botao" onclick="window.open('https://www.youtube.com/watch?v=mM9H94jYrNE');">
+                <i class="fas fa-play"></i>
+                ASSISTIR AGORA
+              </button>
+
+              <!--onclick="window.open('https://github/laarissagoncalves');" faz com que ao clicar no botão abra uma nova aba-->
+
+              <button role="button" class="botao" onclick="window.open('https://pt.wikipedia.org/wiki/Eye_Candy');">
+                <i class="fas fa-info-circle"></i>
+                MAIS INFORMAÇÕES
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <div class="carrosel-filmes">
+      <p class="subtitulo"><i class="fas fa-star"></i>  SÉRIES | Queridinhas</p>
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img class="box-filme" src="./img/awkward.jpg" alt="poster da série awkward.">
+        </div>
+        <div class="item">
+          <img class="box-filme" src="./img/badjudge.jpg" alt="poster da série bad judge">
+        </div>
+        <div class="item">
+          <img class="box-filme" src="./img/bones.jpg" alt="poster da série bones">
+        </div>
+        <div class="item">
+          <img class="box-filme" src="./img/castle.jpg" alt="poster da série castle">
+        </div>
+        <div class="item">
+          <img class="box-filme" src="./img/chuck.jpg" alt="poster da série chuck">
+        </div>
+        <div class="item">
+          <img class="box-filme" src="./img/dropdeaddiva.jpg" alt="poster da série drop dead diva">
+        </div>
+        <div class="item">
+          <img class="box-filme" src="./img/gilmoregirls.jpg" alt="poster da série gilmore girls">
+        </div>
+        <div class="item">
+          <img class="box-filme" src="./img/onetreehill.jpg" alt="poster da série one tree hill">
+        </div>
+        <div class="item">
+          <img class="box-filme" src="./img/parenthood.jpg" alt="poster da série parenthood">
+        </div>
+        <div class="item">
+          <img class="box-filme" src="./img/rookieblue.jpg" alt="poster da série rookie blue">
+        </div>
+        <div class="item">
+          <img class="box-filme" src="./img/sexandthecity.jpg" alt="poster da série sex and the city">
+        </div>
+        <div class="item">
+          <img class="box-filme" src="./img/teenwolf.jpg" alt="poster da série teen wolf">
+        </div>
+        <div class="item">
+          <img class="box-filme" src="./img/thefosters.jpg" alt="poster da série the fosters">
+        </div>
+        <div class="item">
+          <img class="box-filme" src="./img/theoc.jpg" alt="poster da série the oc">
+        </div>
+        <div class="item">
+          <img class="box-filme" src="./img/younger.jpg" alt="poster da série younger">
+        </div>
+      </div>
+
+      <div class="carrosel-filmes">
+        <p class="subtitulo"><i class="fas fa-fire-alt"></i> FILMES | Hot</p>
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <img class="box-filme" src="./img/filmes/badboys.jpg" alt="poster do filme bad boys">
+          </div>
+          <div class="item">
+            <img class="box-filme" src="./img/filmes/birdsofprey.jpg" alt="poster do filme aves de rapina">
+          </div>
+          <div class="item">
+            <img class="box-filme" src="./img/filmes/blackwidow.jpg" alt="poster do filme viúva negra">
+          </div>
+          <div class="item">
+            <img class="box-filme" src="./img/filmes/croods.jpg" alt="poster do filme os croods 2">
+          </div>
+          <div class="item">
+            <img class="box-filme" src="./img/filmes/cruella.jpg" alt="poster do filme cruella">
+          </div>
+          <div class="item">
+            <img class="box-filme" src="./img/filmes/justiceleague.jpg" alt="poster do filme liga da justiça">
+          </div>
+          <div class="item">
+            <img class="box-filme" src="./img/filmes/luca.jpg" alt="poster do filme luca">
+          </div>
+          <div class="item">
+            <img class="box-filme" src="./img/filmes/mortalkombat.jpg" alt="poster do filme mortal kombat">
+          </div>
+          <div class="item">
+            <img class="box-filme" src="./img/filmes/raya.jpg" alt="poster do filme raya">
+          </div>
+          <div class="item">
+            <img class="box-filme" src="./img/filmes/soul.jpg" alt="poster do filme soul">
+          </div>
+          <div class="item">
+            <img class="box-filme" src="./img/filmes/thunderforce.jpg" alt="poster do filme thunder force">
+          </div>
+          <div class="item">
+            <img class="box-filme" src="./img/filmes/wonderwoman.jpg" alt="poster do filme mulher maravilha 1984">
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/56f937f7db.js" crossorigin="anonymous"></script>
+    <script src="./js/owl/jquery.min.js"></script>
+    <script src="./js/owl/owl.carousel.min.js"></script>
+    <script src="./js/setup.js"></script>
+
+
+  </body>
+</html>
+
