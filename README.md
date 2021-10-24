@@ -2,6 +2,8 @@
 
 Clonando a Netflix, como um novo streaming. 
 
+https://laarissagoncalves.github.io/bingewatch/
+
 Utilizando html5 e css3.
 
 
